@@ -1,0 +1,48 @@
+body{
+	font-family: $main-font, Arial, sans-serif;
+	color: $main-color;
+}
+.wraper{
+	width: 60%;
+}
+h2{
+	font-family: $main-font;
+	font-size: 42px;
+	margin-bottom: 92px;
+	text-align: center;
+}
+h2 span{
+	color: $main-color2;
+}
+.textBox_flex{
+	display: flex;
+	flex-direction: row;
+}
+
+.column_font{
+	width: 45%;
+	margin: 0 25px;
+	font-family: $main-font2;
+	font-size: 14px;
+	 line-height: 1.714;
+  text-align: left;
+}
+
+.icon{
+	width: 33px;
+	height: 33px;
+	margin: 0 10px;
+	flex: 1;
+}
+.icon_fb{
+	background: url(../img/svg/parts/fb.png) center no-repeat;
+	background-size: cover;
+}
+.icon_lnkdn{
+	background: url(../img/svg/parts/lnkdn.png) center no-repeat;
+	background-size: cover;
+}
+.icon_twtr{
+	background: url(../img/svg/parts/twe.png) center no-repeat;
+	background-size: cover;
+}
